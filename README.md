@@ -35,7 +35,7 @@ currently: Looking for SDE / ML internships
 <tr>
 <td colspan="2" valign="top">
 
-#### 🎯 [Smart Shortlisting Engine](https://github.com/SlazzInC0de/smart-shorlisting-engine)
+#### 🎯 [Smart Shortlisting Engine](https://github.com/SlazzInC0de/smart-shortlisting-engine)
 Hybrid AI candidate-ranking engine built for the **InternLoom AI Hackathon**. Combines exact skill parsing with semantic resume-vs-JD matching using local **all-MiniLM-L6-v2** embeddings. Fully local, privacy-first, zero external API calls.
 
 ![Python](https://img.shields.io/badge/-Python-0f172a?logo=python)
