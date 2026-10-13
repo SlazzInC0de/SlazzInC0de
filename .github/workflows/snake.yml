@@ -1,6 +1,11 @@
-name: Contribution graph
+name: Profile graphics
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/**"
   schedule:
     - cron: "30 0 * * *"   # daily, 6:00 AM IST
   workflow_dispatch:
@@ -13,19 +18,26 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/contrib-dark.svg?color_empty=%231e293b&color_dot_border=%23334155&color_snake=%2322d3ee&color_dots=%231e293b,%230c4a5e,%230e7490,%2306b6d4,%2322d3ee
             dist/contrib-light.svg?color_snake=%230e7490&color_dots=%23ebedf0,%23a5f3fc,%2322d3ee,%230891b2,%230e7490
 
-      - name: Commit graph into assets
+      - name: Stats and language cards
+        run: python3 scripts/stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - name: Commit graphics
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git clone --depth 1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" repo
-          cp dist/*.svg repo/assets/
-          cd repo
-          git add assets/contrib-*.svg
-          git diff --cached --quiet || (git commit -m "chore: update contribution graph [skip ci]" && git push)
+          cp dist/*.svg assets/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --cached --quiet || (git commit -m "chore: update profile graphics [skip ci]" && git push)

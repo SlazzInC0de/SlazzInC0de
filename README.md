@@ -113,14 +113,15 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="./assets/stats.svg" width="49%" alt="GitHub stats"/>
+  <img src="./assets/langs.svg" width="49%" alt="Most used languages"/>
+</p>
+
 ### 📈 Contribution Activity
 
 <p align="center">
   <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg"/>
-</p>
-
----
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%"/>
 </p>
