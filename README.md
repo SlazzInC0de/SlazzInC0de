@@ -5,14 +5,13 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=CSE+%40+Manipal+Institute+of+Technology%2C+Bengaluru;Building+event-driven+pipelines+on+Azure;Shipping+full-stack+apps+with+React+%2B+Express;Competitive+programmer+in+C%2B%2B" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=CSE+%40+Manipal+Institute+of+Technology%2C+Bengaluru;Building+event-driven+pipelines+on+Azure;Shipping+full-stack+apps+with+React+%2B+Express" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/suryansh-verma08"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:vsuryansh080405@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee"/></a>
-  <img src="https://komarev.com/ghpvc/?username=SlazzInC0de&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS"/>
 </p>
 
 ---
@@ -24,7 +23,7 @@ name:      Suryansh Verma
 studying:  B.Tech CSE @ MIT Bengaluru (2024 to 2028)
 based_in:  Bengaluru, India
 previously: Full-Stack Intern @ Techible & I3C, IIT Jammu (Jun to Aug 2025)
-focus:     [Full-Stack Web, Cloud & DevOps, Applied ML, DSA]
+focus:     [Full-Stack Web, Cloud & DevOps, Applied ML]
 currently: Looking for SDE / ML internships
 ```
 
@@ -110,27 +109,6 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
   <br/><br/>
   <b>Cloud, DevOps & Data</b><br/>
   <img src="https://skillicons.dev/icons?i=azure,docker,terraform,githubactions,git,linux,mongodb,mysql,sqlite&theme=dark"/>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SlazzInC0de&hide_border=true&background=0f172a&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=e2e8f0&dates=94a3b8&currStreakNum=ffffff&sideNums=ffffff"/>
-</p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SlazzInC0de&bg_color=0f172a&color=22d3ee&line=0e7490&point=ffffff&area=true&hide_border=true"/>
-</p>
-
----
-
-### ⚔️ Competitive Programming
-
-<p align="center">
-  <a href="https://codeforces.com/profile/YOUR_HANDLE"><img src="https://img.shields.io/badge/Codeforces-1f8acb?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
-  <a href="https://www.codechef.com/users/YOUR_HANDLE"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
-  <a href="https://www.hackerearth.com/@YOUR_HANDLE"><img src="https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white"/></a>
 </p>
 
 ---
