@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0e7490,100:22d3ee&height=200&section=header&text=Suryansh%20Verma&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20%E2%80%A2%20Cloud%20%26%20DevOps%20%E2%80%A2%20Applied%20ML&descAlignY=58&descSize=16" width="100%"/>
+  <img src="./assets/header.svg" width="100%" alt="Suryansh Verma"/>
 </p>
 
 <p align="center">
@@ -117,10 +117,6 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SlazzInC0de&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0f172a&title_color=22d3ee&icon_color=22d3ee&include_all_commits=true&count_private=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SlazzInC0de&layout=compact&hide_border=true&theme=tokyonight&bg_color=0f172a&title_color=22d3ee&langs_count=6"/>
-</p>
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=SlazzInC0de&hide_border=true&background=0f172a&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=e2e8f0&dates=94a3b8&currStreakNum=ffffff&sideNums=ffffff"/>
 </p>
 <p align="center">
@@ -140,5 +136,5 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0f172a&height=110&section=footer"/>
+  <img src="./assets/footer.svg" width="100%"/>
 </p>
