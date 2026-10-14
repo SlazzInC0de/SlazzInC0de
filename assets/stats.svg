@@ -11,10 +11,10 @@
   </style>
   <rect x="0.5" y="0.5" width="449" height="199" rx="12" fill="#0f172a" stroke="#1e293b"/>
   <text x="25" y="38" class="t">GitHub Stats</text>
-  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="71" r="4" fill="#22d3ee"/><text x="45" y="76" class="l">Total Stars</text><text x="255" y="76" class="v" text-anchor="end">4</text></g>
-  <g class="row" style="animation-delay:270ms"><circle cx="31" cy="97" r="4" fill="#22d3ee"/><text x="45" y="102" class="l">Commits (last year)</text><text x="255" y="102" class="v" text-anchor="end">66</text></g>
+  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="71" r="4" fill="#22d3ee"/><text x="45" y="76" class="l">Total Stars</text><text x="255" y="76" class="v" text-anchor="end">5</text></g>
+  <g class="row" style="animation-delay:270ms"><circle cx="31" cy="97" r="4" fill="#22d3ee"/><text x="45" y="102" class="l">Commits (last year)</text><text x="255" y="102" class="v" text-anchor="end">81</text></g>
   <g class="row" style="animation-delay:390ms"><circle cx="31" cy="123" r="4" fill="#22d3ee"/><text x="45" y="128" class="l">Pull Requests</text><text x="255" y="128" class="v" text-anchor="end">0</text></g>
   <g class="row" style="animation-delay:510ms"><circle cx="31" cy="149" r="4" fill="#22d3ee"/><text x="45" y="154" class="l">Issues</text><text x="255" y="154" class="v" text-anchor="end">0</text></g>
-  <g class="row" style="animation-delay:630ms"><circle cx="31" cy="175" r="4" fill="#22d3ee"/><text x="45" y="180" class="l">Public Repositories</text><text x="255" y="180" class="v" text-anchor="end">12</text></g>
-  <g transform="translate(345,113)"><circle r="40" fill="none" stroke="#1e293b" stroke-width="8"/><circle r="40" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="202.3" transform="rotate(-90)" style="animation: grow 1.2s ease-out"/><text y="10" class="big" text-anchor="middle">71</text><text y="64" class="cap" text-anchor="middle">CONTRIBUTIONS</text></g>
+  <g class="row" style="animation-delay:630ms"><circle cx="31" cy="175" r="4" fill="#22d3ee"/><text x="45" y="180" class="l">Public Repositories</text><text x="255" y="180" class="v" text-anchor="end">13</text></g>
+  <g transform="translate(345,113)"><circle r="40" fill="none" stroke="#1e293b" stroke-width="8"/><circle r="40" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="191.3" transform="rotate(-90)" style="animation: grow 1.2s ease-out"/><text y="10" class="big" text-anchor="middle">87</text><text y="64" class="cap" text-anchor="middle">CONTRIBUTIONS</text></g>
 </svg>
