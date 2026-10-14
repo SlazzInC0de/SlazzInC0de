@@ -63,7 +63,7 @@ Event-driven serverless data pipeline on **Azure**. Blob upload triggers Functio
 #### 💼 [GradIntern](https://github.com/SlazzInC0de/gradintern)
 Full-stack internship marketplace with custom **JWT + role-based access control** middleware. REST API on Express 5 and MongoDB Atlas, frontend in React 19 + Tailwind 4.
 
-`sub-12ms token signature verification`
+`15 API tests · 100% route coverage · ~1 ms p50 API overhead (benchmarked)`
 
 ![React](https://img.shields.io/badge/-React-0f172a?logo=react)
 ![Express](https://img.shields.io/badge/-Express-0f172a?logo=express)
