@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="34" viewBox="0 0 148 34">
+<rect width="148" height="34" rx="6" fill="#111827"/>
+<g transform="translate(14,8) scale(0.75)" fill="#22d3ee"><path d="M24 22.525H0l12-21.05 12 21.05z"/></g>
+<text x="40" y="22" fill="#22d3ee" font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" font-size="13" font-weight="700" letter-spacing="1">DRAWTOMATA</text>
+</svg>
