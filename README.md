@@ -1,4 +1,3 @@
-<!-- Header -->
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="Suryansh Verma"/>
 </p>
@@ -10,28 +9,67 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/suryansh-verma08"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:vsuryansh080405@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee"/></a>
+  <a href="https://www.linkedin.com/in/suryansh-verma08"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:vsuryansh080405@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://drawtomata.vercel.app"><img src="https://img.shields.io/badge/Drawtomata-Live-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Drawtomata live"/></a>
+  <a href="https://github.com/SlazzInC0de?tab=repositories"><img src="https://img.shields.io/badge/Repos-0f172a?style=for-the-badge&logo=github&logoColor=22d3ee" alt="Repositories"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SlazzInC0de&label=profile%20views&color=0e7490&style=flat-square" alt="profile views"/>
 </p>
 
 ---
 
-### `> whoami`
+## `~/ whoami`
 
-```yaml
-name:      Suryansh Verma
-studying:  B.Tech CSE @ MIT Bengaluru (2024 to 2028)
-based_in:  Bengaluru, India
-previously: Full-Stack Intern @ Techible & I3C, IIT Jammu (Jun to Aug 2025)
-focus:     [Full-Stack Web, Cloud & DevOps, Applied ML]
-currently: Looking for SDE / ML internships
+```console
+$ cat about.txt
 ```
+
+Hi, I'm **Suryansh Verma**. I build things that sit somewhere between the cloud, the web and machine learning, and I debug them when none of those three are cooperating.
+
+- 🔨 Currently building **[Drawtomata](https://drawtomata.vercel.app)** (RE ⇄ FA, NFA/DFA, grammar and PDA conversions, drawn live) and **PadLink** (couch co-op in the browser, just plug in a controller)
+- 🎓 B.Tech CSE @ **MIT Bengaluru** (2024 to 2028)
+- 💼 Previously **Full-Stack Intern @ Techible & I3C, IIT Jammu** (Jun to Aug 2025)
+- 🎯 Open to **SDE / ML internships**
+- ⚡ Fun fact: Drawtomata exists because I kept fumbling NFA to DFA conversions in exams, so I built the tool I wished I had.
 
 ---
 
-### 🚀 Featured Projects
+<h2 align="center"><code>~/ toolbox</code></h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,c,java,python,js,ts,html,css,react,nodejs,express,tailwind,vite&perline=13&theme=dark" alt="languages and frameworks"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=spring,sklearn,pytorch,azure,docker,terraform,githubactions,git,github,linux,mongodb,mysql,sqlite&perline=13&theme=dark" alt="cloud, devops and data"/>
+</p>
+
+---
+
+<h2 align="center"><code>~/ skill radar</code></h2>
+
+<p align="center">
+  <img src="./profile-3d-contrib/radar-cyan.svg" width="49%" alt="contribution radar"/>
+  <img src="./profile-3d-contrib/pie-lang.svg" width="49%" alt="language mix"/>
+</p>
+
+---
+
+<h2 align="center"><code>~/ featured builds</code></h2>
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+#### ✏️ [Drawtomata](https://github.com/SlazzInC0de/drawtomata) · [live ↗](https://drawtomata.vercel.app)
+Interactive Theory of Computation workbench. Convert between regular expressions, NFAs, DFAs, grammars and PDAs and watch every step drawn out, instead of guessing in an exam hall.
+
+![Web](https://img.shields.io/badge/-Web_App-0f172a?logo=javascript)
+![Vercel](https://img.shields.io/badge/-Vercel-0f172a?logo=vercel)
+
+</td>
+</tr>
 <tr>
 <td colspan="2" valign="top">
 
@@ -98,30 +136,21 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
-### 🛠️ Tech Stack
+<h2 align="center"><code>~/ contributions calendar</code></h2>
 
 <p align="center">
-  <b>Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=cpp,c,java,python,js,ts,html,css&theme=dark"/>
-  <br/><br/>
-  <b>Frameworks & Libraries</b><br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,vite,spring,sklearn,pytorch&theme=dark"/>
-  <br/><br/>
-  <b>Cloud, DevOps & Data</b><br/>
-  <img src="https://skillicons.dev/icons?i=azure,docker,terraform,githubactions,git,linux,mongodb,mysql,sqlite&theme=dark"/>
+  <img src="./profile-3d-contrib/profile-3d-cyan.svg" width="100%" alt="3D contribution calendar"/>
 </p>
 
 ---
 
-### 📊 GitHub Analytics
+<h2 align="center"><code>~/ the numbers</code></h2>
 
 <p align="center">
   <img src="./assets/stats.svg" width="49%" alt="GitHub stats"/>
   <img src="./assets/langs.svg" width="49%" alt="Most used languages"/>
 </p>
 
-### 📈 Contribution Activity
-
 <p align="center">
-  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg"/>
+  <img width="100%" alt="Contribution snake" src="./assets/contrib-dark.svg"/>
 </p>
