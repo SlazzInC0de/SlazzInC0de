@@ -13,17 +13,17 @@
   <text x="25" y="38" class="t">Most Used Languages</text>
   <clipPath id="bar"><rect x="25" y="58" width="400" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="25.00" y="58" width="172.01" height="10" fill="#f1e05a"/>
-    <rect x="196.51" y="58" width="139.62" height="10" fill="#3572A5"/>
-    <rect x="335.63" y="58" width="45.13" height="10" fill="#e34c26"/>
-    <rect x="380.25" y="58" width="27.89" height="10" fill="#663399"/>
-    <rect x="407.64" y="58" width="15.66" height="10" fill="#b07219"/>
-    <rect x="422.80" y="58" width="2.70" height="10" fill="#844FBA"/>
+    <rect x="25.00" y="58" width="228.07" height="10" fill="#3572A5"/>
+    <rect x="252.57" y="58" width="86.05" height="10" fill="#f1e05a"/>
+    <rect x="338.12" y="58" width="49.72" height="10" fill="#e34c26"/>
+    <rect x="387.34" y="58" width="24.37" height="10" fill="#b07219"/>
+    <rect x="411.22" y="58" width="10.22" height="10" fill="#663399"/>
+    <rect x="420.94" y="58" width="4.56" height="10" fill="#844FBA"/>
   </g>
-  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="97" r="5" fill="#f1e05a"/><text x="45" y="102" class="v">JavaScript</text><text x="216" y="102" class="l" text-anchor="end">42.9%</text></g>
-  <g class="row" style="animation-delay:250ms"><circle cx="241" cy="97" r="5" fill="#3572A5"/><text x="255" y="102" class="v">Python</text><text x="426" y="102" class="l" text-anchor="end">34.8%</text></g>
-  <g class="row" style="animation-delay:350ms"><circle cx="31" cy="129" r="5" fill="#e34c26"/><text x="45" y="134" class="v">HTML</text><text x="216" y="134" class="l" text-anchor="end">11.2%</text></g>
-  <g class="row" style="animation-delay:450ms"><circle cx="241" cy="129" r="5" fill="#663399"/><text x="255" y="134" class="v">CSS</text><text x="426" y="134" class="l" text-anchor="end">6.8%</text></g>
-  <g class="row" style="animation-delay:550ms"><circle cx="31" cy="161" r="5" fill="#b07219"/><text x="45" y="166" class="v">Java</text><text x="216" y="166" class="l" text-anchor="end">3.8%</text></g>
-  <g class="row" style="animation-delay:650ms"><circle cx="241" cy="161" r="5" fill="#844FBA"/><text x="255" y="166" class="v">HCL</text><text x="426" y="166" class="l" text-anchor="end">0.6%</text></g>
+  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="97" r="5" fill="#3572A5"/><text x="45" y="102" class="v">Python</text><text x="216" y="102" class="l" text-anchor="end">56.9%</text></g>
+  <g class="row" style="animation-delay:250ms"><circle cx="241" cy="97" r="5" fill="#f1e05a"/><text x="255" y="102" class="v">JavaScript</text><text x="426" y="102" class="l" text-anchor="end">21.4%</text></g>
+  <g class="row" style="animation-delay:350ms"><circle cx="31" cy="129" r="5" fill="#e34c26"/><text x="45" y="134" class="v">HTML</text><text x="216" y="134" class="l" text-anchor="end">12.3%</text></g>
+  <g class="row" style="animation-delay:450ms"><circle cx="241" cy="129" r="5" fill="#b07219"/><text x="255" y="134" class="v">Java</text><text x="426" y="134" class="l" text-anchor="end">6.0%</text></g>
+  <g class="row" style="animation-delay:550ms"><circle cx="31" cy="161" r="5" fill="#663399"/><text x="45" y="166" class="v">CSS</text><text x="216" y="166" class="l" text-anchor="end">2.4%</text></g>
+  <g class="row" style="animation-delay:650ms"><circle cx="241" cy="161" r="5" fill="#844FBA"/><text x="255" y="166" class="v">HCL</text><text x="426" y="166" class="l" text-anchor="end">1.0%</text></g>
 </svg>
