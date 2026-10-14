@@ -50,7 +50,7 @@ Hybrid AI candidate-ranking engine built for the **InternLoom AI Hackathon**. Co
 #### ☁️ [StratoFlow](https://github.com/SlazzInC0de/stratoflow)
 Event-driven serverless data pipeline on **Azure**. Blob upload triggers Functions that validate (Pandera), transform and load data to Parquet, queried via **Synapse Serverless SQL**. Full infra in **Terraform**, CI/CD on **GitHub Actions**.
 
-`61.7% storage reduction via Parquet`
+`61% smaller than CSV via Parquet (measured) · 11 tests · 96% coverage`
 
 ![Python](https://img.shields.io/badge/-Python-0f172a?logo=python)
 ![Azure](https://img.shields.io/badge/-Azure-0f172a?logo=microsoftazure&logoColor=0078D4)
