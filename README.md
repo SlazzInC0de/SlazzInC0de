@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/header.svg?v=1792665852" width="100%" alt="Suryansh Verma"/>
+  <img src="./assets/header.svg?v=1792665869" width="100%" alt="Suryansh Verma"/>
 </p>
 
 <p align="center">
@@ -116,12 +116,12 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 ### `> git stats --year`
 
 <p align="center">
-  <img src="./assets/stats.svg?v=1792665852" width="49%" alt="GitHub stats"/>
-  <img src="./assets/langs.svg?v=1792665852" width="49%" alt="Most used languages"/>
+  <img src="./assets/stats.svg?v=1792665869" width="49%" alt="GitHub stats"/>
+  <img src="./assets/langs.svg?v=1792665869" width="49%" alt="Most used languages"/>
 </p>
 
 ### `> git log --graph`
 
 <p align="center">
-  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1792665852"/>
+  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1792665869"/>
 </p>
