@@ -1,20 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="200" viewBox="0 0 450 200">
   <style>
-    .t { font: 600 18px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #22d3ee; }
-    .l { font: 400 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; }
-    .v { font: 700 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e2e8f0; }
-    .big { font: 800 30px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e2e8f0; }
-    .cap { font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 1.5px; }
+    .t { font: 700 16px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 1px; }
+    .l { font: 400 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .v { font: 700 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .big { font: 800 30px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .cap { font: 500 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1.5px; }
     .row { animation: fade .6s ease-out backwards; }
     @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
     @keyframes grow { from { stroke-dashoffset: 251; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
   </style>
-  <rect x="0.5" y="0.5" width="449" height="199" rx="12" fill="#0f172a" stroke="#1e293b"/>
-  <text x="25" y="38" class="t">GitHub Stats</text>
-  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="71" r="4" fill="#22d3ee"/><text x="45" y="76" class="l">Total Stars</text><text x="255" y="76" class="v" text-anchor="end">5</text></g>
-  <g class="row" style="animation-delay:270ms"><circle cx="31" cy="97" r="4" fill="#22d3ee"/><text x="45" y="102" class="l">Commits (last year)</text><text x="255" y="102" class="v" text-anchor="end">91</text></g>
-  <g class="row" style="animation-delay:390ms"><circle cx="31" cy="123" r="4" fill="#22d3ee"/><text x="45" y="128" class="l">Pull Requests</text><text x="255" y="128" class="v" text-anchor="end">0</text></g>
-  <g class="row" style="animation-delay:510ms"><circle cx="31" cy="149" r="4" fill="#22d3ee"/><text x="45" y="154" class="l">Issues</text><text x="255" y="154" class="v" text-anchor="end">0</text></g>
-  <g class="row" style="animation-delay:630ms"><circle cx="31" cy="175" r="4" fill="#22d3ee"/><text x="45" y="180" class="l">Public Repositories</text><text x="255" y="180" class="v" text-anchor="end">14</text></g>
-  <g transform="translate(345,113)"><circle r="40" fill="none" stroke="#1e293b" stroke-width="8"/><circle r="40" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="183.8" transform="rotate(-90)" style="animation: grow 1.2s ease-out"/><text y="10" class="big" text-anchor="middle">98</text><text y="64" class="cap" text-anchor="middle">CONTRIBUTIONS</text></g>
+  <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ff2b2b" fill-opacity="0.025"/></pattern></defs>
+  <rect x="0.5" y="0.5" width="449" height="199" rx="12" fill="#070101" stroke="#3a0808"/>
+  <rect x="1" y="1" width="448" height="198" rx="12" fill="url(#scan)"/>
+  <text x="25" y="38" class="t">&gt; GitHub Stats<tspan class="cur">_</tspan></text>
+  <g class="row" style="animation-delay:150ms"><rect x="27" y="67" width="8" height="8" fill="#ff2b2b"/><text x="45" y="76" class="l">Total Stars</text><text x="255" y="76" class="v" text-anchor="end">5</text></g>
+  <g class="row" style="animation-delay:270ms"><rect x="27" y="93" width="8" height="8" fill="#ff2b2b"/><text x="45" y="102" class="l">Commits (last year)</text><text x="255" y="102" class="v" text-anchor="end">92</text></g>
+  <g class="row" style="animation-delay:390ms"><rect x="27" y="119" width="8" height="8" fill="#ff2b2b"/><text x="45" y="128" class="l">Pull Requests</text><text x="255" y="128" class="v" text-anchor="end">0</text></g>
+  <g class="row" style="animation-delay:510ms"><rect x="27" y="145" width="8" height="8" fill="#ff2b2b"/><text x="45" y="154" class="l">Issues</text><text x="255" y="154" class="v" text-anchor="end">0</text></g>
+  <g class="row" style="animation-delay:630ms"><rect x="27" y="171" width="8" height="8" fill="#ff2b2b"/><text x="45" y="180" class="l">Public Repositories</text><text x="255" y="180" class="v" text-anchor="end">14</text></g>
+  <g transform="translate(345,113)"><circle r="40" fill="none" stroke="#3a0808" stroke-width="8"/><circle r="40" fill="none" stroke="#ff2b2b" stroke-width="8" stroke-linecap="butt" stroke-dasharray="251.2" stroke-dashoffset="183.1" transform="rotate(-90)" style="animation: grow 1.2s ease-out"/><text y="10" class="big" text-anchor="middle">99</text><text y="64" class="cap" text-anchor="middle">CONTRIBUTIONS</text></g>
 </svg>

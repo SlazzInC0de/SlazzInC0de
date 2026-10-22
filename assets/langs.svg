@@ -1,29 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="200" viewBox="0 0 450 200">
   <style>
-    .t { font: 600 18px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #22d3ee; }
-    .l { font: 400 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; }
-    .v { font: 700 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e2e8f0; }
-    .big { font: 800 30px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e2e8f0; }
-    .cap { font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 1.5px; }
+    .t { font: 700 16px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 1px; }
+    .l { font: 400 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .v { font: 700 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .big { font: 800 30px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .cap { font: 500 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1.5px; }
     .row { animation: fade .6s ease-out backwards; }
     @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
     @keyframes grow { from { stroke-dashoffset: 251; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
   </style>
-  <rect x="0.5" y="0.5" width="449" height="199" rx="12" fill="#0f172a" stroke="#1e293b"/>
-  <text x="25" y="38" class="t">Most Used Languages</text>
-  <clipPath id="bar"><rect x="25" y="58" width="400" height="10" rx="5"/></clipPath>
+  <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ff2b2b" fill-opacity="0.025"/></pattern></defs>
+  <rect x="0.5" y="0.5" width="449" height="199" rx="12" fill="#070101" stroke="#3a0808"/>
+  <rect x="1" y="1" width="448" height="198" rx="12" fill="url(#scan)"/>
+  <text x="25" y="38" class="t">&gt; Most Used Languages<tspan class="cur">_</tspan></text>
+  <clipPath id="bar"><rect x="25" y="58" width="400" height="10" rx="1"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="25.00" y="58" width="135.77" height="10" fill="#f1e05a"/>
-    <rect x="160.27" y="58" width="100.17" height="10" fill="#e34c26"/>
-    <rect x="259.94" y="58" width="89.20" height="10" fill="#3572A5"/>
-    <rect x="348.64" y="58" width="43.89" height="10" fill="#3178c6"/>
-    <rect x="392.03" y="58" width="24.59" height="10" fill="#663399"/>
-    <rect x="416.12" y="58" width="9.38" height="10" fill="#b07219"/>
+    <rect x="25.00" y="58" width="134.73" height="10" fill="#ff2b2b"/>
+    <rect x="159.23" y="58" width="99.40" height="10" fill="#d91e1e"/>
+    <rect x="258.13" y="58" width="91.59" height="10" fill="#ff6b6b"/>
+    <rect x="349.22" y="58" width="43.56" height="10" fill="#a31515"/>
+    <rect x="392.28" y="58" width="24.41" height="10" fill="#ff9e9e"/>
+    <rect x="416.19" y="58" width="9.31" height="10" fill="#6e0e0e"/>
   </g>
-  <g class="row" style="animation-delay:150ms"><circle cx="31" cy="97" r="5" fill="#f1e05a"/><text x="45" y="102" class="v">JavaScript</text><text x="216" y="102" class="l" text-anchor="end">33.8%</text></g>
-  <g class="row" style="animation-delay:250ms"><circle cx="241" cy="97" r="5" fill="#e34c26"/><text x="255" y="102" class="v">HTML</text><text x="426" y="102" class="l" text-anchor="end">24.9%</text></g>
-  <g class="row" style="animation-delay:350ms"><circle cx="31" cy="129" r="5" fill="#3572A5"/><text x="45" y="134" class="v">Python</text><text x="216" y="134" class="l" text-anchor="end">22.2%</text></g>
-  <g class="row" style="animation-delay:450ms"><circle cx="241" cy="129" r="5" fill="#3178c6"/><text x="255" y="134" class="v">TypeScript</text><text x="426" y="134" class="l" text-anchor="end">10.8%</text></g>
-  <g class="row" style="animation-delay:550ms"><circle cx="31" cy="161" r="5" fill="#663399"/><text x="45" y="166" class="v">CSS</text><text x="216" y="166" class="l" text-anchor="end">6.0%</text></g>
-  <g class="row" style="animation-delay:650ms"><circle cx="241" cy="161" r="5" fill="#b07219"/><text x="255" y="166" class="v">Java</text><text x="426" y="166" class="l" text-anchor="end">2.2%</text></g>
+  <g class="row" style="animation-delay:150ms"><rect x="26" y="92" width="10" height="10" fill="#ff2b2b"/><text x="45" y="102" class="v">JavaScript</text><text x="216" y="102" class="l" text-anchor="end">33.6%</text></g>
+  <g class="row" style="animation-delay:250ms"><rect x="236" y="92" width="10" height="10" fill="#d91e1e"/><text x="255" y="102" class="v">HTML</text><text x="426" y="102" class="l" text-anchor="end">24.7%</text></g>
+  <g class="row" style="animation-delay:350ms"><rect x="26" y="124" width="10" height="10" fill="#ff6b6b"/><text x="45" y="134" class="v">Python</text><text x="216" y="134" class="l" text-anchor="end">22.8%</text></g>
+  <g class="row" style="animation-delay:450ms"><rect x="236" y="124" width="10" height="10" fill="#a31515"/><text x="255" y="134" class="v">TypeScript</text><text x="426" y="134" class="l" text-anchor="end">10.8%</text></g>
+  <g class="row" style="animation-delay:550ms"><rect x="26" y="156" width="10" height="10" fill="#ff9e9e"/><text x="45" y="166" class="v">CSS</text><text x="216" y="166" class="l" text-anchor="end">6.0%</text></g>
+  <g class="row" style="animation-delay:650ms"><rect x="236" y="156" width="10" height="10" fill="#6e0e0e"/><text x="255" y="166" class="v">Java</text><text x="426" y="166" class="l" text-anchor="end">2.2%</text></g>
 </svg>
