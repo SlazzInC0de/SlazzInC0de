@@ -113,3 +113,48 @@ if __name__ == "__main__":
     with open(os.path.join(OUT, "header.svg"), "w", encoding="utf-8") as f:
         f.write(build())
     print("header written")
+
+
+SECTIONS = {
+    "about": "About Me",
+    "projects": "Featured Projects",
+    "stack": "Tech Stack",
+    "analytics": "GitHub Analytics",
+    "activity": "Contribution Activity",
+}
+
+
+def section_title(label, idx):
+    w, h = 900, 54
+    code = f"0x{idx:02X}"
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+  <style>
+    .k {{ font: 500 13px {FONT}; fill: #8a2a2a; letter-spacing: 2px; }}
+    .n {{ font: 800 24px {FONT}; fill: #ff2b2b; letter-spacing: 3px; }}
+    .cur {{ fill: #ff2b2b; animation: blink 1s steps(1) infinite; }}
+    @keyframes blink {{ 50% {{ opacity: 0; }} }}
+    .scan {{ animation: scan 4s linear infinite; }}
+    @keyframes scan {{ from {{ transform: translateX(-120px); }} to {{ transform: translateX({w}px); }} }}
+  </style>
+  <defs>
+    <linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#ff2b2b"/><stop offset="1" stop-color="#ff2b2b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sc" x1="0" x2="1"><stop offset="0" stop-color="#ff2b2b" stop-opacity="0"/><stop offset=".5" stop-color="#ffd0d0"/><stop offset="1" stop-color="#ff2b2b" stop-opacity="0"/></linearGradient>
+  </defs>
+  <text x="0" y="16" class="k">[{code}]</text>
+  <text x="0" y="42" class="n">{escape(label.upper())}</text>
+  <rect class="cur" x="{len(label) * 17.5 + 6:.0f}" y="22" width="12" height="22"/>
+  <rect x="0" y="51" width="{w}" height="1.5" fill="url(#ln)"/>
+  <rect class="scan" x="0" y="50.5" width="120" height="2.5" fill="url(#sc)"/>
+</svg>
+"""
+
+
+def write_sections():
+    for i, (key, label) in enumerate(SECTIONS.items(), start=1):
+        with open(os.path.join(OUT, f"title-{key}.svg"), "w", encoding="utf-8") as f:
+            f.write(section_title(label, i))
+
+
+if __name__ == "__main__":
+    write_sections()
+    print("section titles written")

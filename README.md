@@ -16,7 +16,8 @@
 
 ---
 
-### `> whoami`
+<img src="./assets/title-about.svg?v=1" width="100%" alt="About Me"/>
+
 
 ```yaml
 name:      Suryansh Verma
@@ -29,7 +30,8 @@ currently: Looking for SDE / ML internships
 
 ---
 
-### `> ls ./projects`
+<img src="./assets/title-projects.svg?v=1" width="100%" alt="Featured Projects"/>
+
 
 <table>
 <tr>
@@ -98,7 +100,8 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
-### `> cat stack.txt`
+<img src="./assets/title-stack.svg?v=1" width="100%" alt="Tech Stack"/>
+
 
 <p align="center">
   <b>Languages</b><br/>
@@ -113,14 +116,16 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
-### `> git stats --year`
+<img src="./assets/title-analytics.svg?v=1" width="100%" alt="GitHub Analytics"/>
+
 
 <p align="center">
   <img src="./assets/stats.svg?v=1792665869" width="49%" alt="GitHub stats"/>
   <img src="./assets/langs.svg?v=1792665869" width="49%" alt="Most used languages"/>
 </p>
 
-### `> git log --graph`
+<img src="./assets/title-activity.svg?v=1" width="100%" alt="Contribution Activity"/>
+
 
 <p align="center">
   <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1792665869"/>
