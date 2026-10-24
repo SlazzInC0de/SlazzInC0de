@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/header.svg?v=1792811157" width="100%" alt="Suryansh Verma"/>
+  <img src="./assets/header.svg?v=1792872512" width="100%" alt="Suryansh Verma"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ---
 
-<img src="./assets/title-about.svg?v=1792811157" width="100%" alt="About Me"/>
+<img src="./assets/title-about.svg?v=1792872512" width="100%" alt="About Me"/>
 
 
 ```yaml
@@ -30,7 +30,7 @@ currently: Looking for SDE / ML internships
 
 ---
 
-<img src="./assets/title-projects.svg?v=1792811157" width="100%" alt="Featured Projects"/>
+<img src="./assets/title-projects.svg?v=1792872512" width="100%" alt="Featured Projects"/>
 
 
 <table>
@@ -100,7 +100,7 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
-<img src="./assets/title-stack.svg?v=1792811157" width="100%" alt="Tech Stack"/>
+<img src="./assets/title-stack.svg?v=1792872512" width="100%" alt="Tech Stack"/>
 
 
 <p align="center">
@@ -116,17 +116,17 @@ Desktop library management system with a **JavaFX** interface and **SQLite** per
 
 ---
 
-<img src="./assets/title-analytics.svg?v=1792811157" width="100%" alt="GitHub Analytics"/>
+<img src="./assets/title-analytics.svg?v=1792872512" width="100%" alt="GitHub Analytics"/>
 
 
 <p align="center">
-  <img src="./assets/stats.svg?v=1792811157" width="49%" alt="GitHub stats"/>
-  <img src="./assets/langs.svg?v=1792811157" width="49%" alt="Most used languages"/>
+  <img src="./assets/stats.svg?v=1792872512" width="49%" alt="GitHub stats"/>
+  <img src="./assets/langs.svg?v=1792872512" width="49%" alt="Most used languages"/>
 </p>
 
-<img src="./assets/title-activity.svg?v=1792811157" width="100%" alt="Contribution Activity"/>
+<img src="./assets/title-activity.svg?v=1792872512" width="100%" alt="Contribution Activity"/>
 
 
 <p align="center">
-  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1792811157"/>
+  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1792872512"/>
 </p>
