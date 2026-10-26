@@ -34,9 +34,10 @@ jobs:
             dist/contrib-dark.svg?color_empty=%23140303&color_dot_border=%232a0606&color_snake=%23ff2b2b&color_dots=%23140303,%234d0b0b,%238f1414,%23cc1f1f,%23ff3b3b
             dist/contrib-light.svg?color_snake=%23b91c1c&color_dots=%23ebedf0,%23fecaca,%23f87171,%23dc2626,%23991b1b
 
-      - name: Header, stats and language cards
+      - name: Header, project cards, stats and language cards
         run: |
           python3 scripts/header.py
+          python3 scripts/cards.py
           python3 scripts/stats.py
         env:
           # STATS_TOKEN (optional PAT, read:user + repo) also counts private contributions

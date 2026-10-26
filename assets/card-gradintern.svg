@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370">
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.35"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2b2b" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff2b2b" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff2b2b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t-id { font: 700 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 3px; }
+    .t-st { font: 500 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 2px; }
+    .t-rp { font: 500 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1px; }
+    .t-hd { font: 800 22px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .t-sb { font: 400 12.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .t-ch { font: 700 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; letter-spacing: 1.5px; }
+    .t-nl { font: 700 11.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; letter-spacing: 1px; }
+    .t-ns { font: 400 9.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .t-mv { font: 800 26px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; }
+    .t-ml { font: 500 9.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #6e2222; letter-spacing: 2.5px; }
+    .t-sm { font: 500 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1.5px; }
+    .t-ok { font: 700 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 1px; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .25; } }
+    .flow { stroke-dasharray: 4 5; animation: flow 1s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -9; } }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(900px); } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+</style>
+  <rect width="900" height="370" fill="#070101"/>
+  <rect x="12" y="12" width="876" height="346" fill="#0d0202" stroke="#5a1010"/>
+  <text x="40" y="46" class="t-id">05 · GRADINTERN</text>
+  <circle cx="212" cy="42" r="4" fill="#ff2b2b" class="pulse"/>
+  <text x="224" y="46" class="t-st">FULL-STACK · REST</text>
+  <text x="860" y="46" text-anchor="end" class="t-rp">-&gt; /gradintern</text>
+  <rect x="40" y="60" width="820" height="1" fill="#3a0808"/>
+  <rect class="scan" x="40" y="59.5" width="200" height="2" fill="url(#sweep)"/>
+  <text x="40" y="96" class="t-hd">An internship portal with real access control.</text>
+  <text x="40" y="118" class="t-sb">Three roles, stateless JWT auth and RBAC middleware guarding every write route.</text>
+  <rect x="40" y="134" width="82" height="22" fill="none" stroke="#5a1010"/><text x="81" y="149" text-anchor="middle" class="t-ch">REACT 19</text><rect x="132.0" y="134" width="90" height="22" fill="none" stroke="#5a1010"/><text x="177" y="149" text-anchor="middle" class="t-ch">EXPRESS 5</text><rect x="231.5" y="134" width="120" height="22" fill="none" stroke="#5a1010"/><text x="291" y="149" text-anchor="middle" class="t-ch">MONGODB ATLAS</text><rect x="361.0" y="134" width="97" height="22" fill="none" stroke="#5a1010"/><text x="410" y="149" text-anchor="middle" class="t-ch">JWT + RBAC</text>
+  <path d="M180,200.0 L210,200.0" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="0.9s" begin="0.00s" repeatCount="indefinite" path="M180,200.0 L210,200.0"/></circle><path d="M350,200.0 L380,200.0" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="0.9s" begin="0.60s" repeatCount="indefinite" path="M350,200.0 L380,200.0"/></circle><path d="M520,200.0 L550,200.0" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="0.9s" begin="1.20s" repeatCount="indefinite" path="M520,200.0 L550,200.0"/></circle><path d="M690,200.0 L720,200.0" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="0.9s" begin="1.80s" repeatCount="indefinite" path="M690,200.0 L720,200.0"/></circle><rect x="40" y="178" width="140" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="0.0s" repeatCount="indefinite"/></rect><text x="110" y="198" text-anchor="middle" class="t-nl">REQUEST</text><text x="110" y="213" text-anchor="middle" class="t-ns">react client</text><rect x="210" y="178" width="140" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="0.6s" repeatCount="indefinite"/></rect><text x="280" y="198" text-anchor="middle" class="t-nl">JWT VERIFY</text><text x="280" y="213" text-anchor="middle" class="t-ns">stateless auth</text><rect x="380" y="178" width="140" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="1.2s" repeatCount="indefinite"/></rect><text x="450" y="198" text-anchor="middle" class="t-nl">RBAC GUARD</text><text x="450" y="213" text-anchor="middle" class="t-ns">student/recruiter/admin</text><rect x="550" y="178" width="140" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="1.7999999999999998s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="1.7999999999999998s" repeatCount="indefinite"/></rect><text x="620" y="198" text-anchor="middle" class="t-nl">EXPRESS 5</text><text x="620" y="213" text-anchor="middle" class="t-ns">rest route</text><rect x="720" y="178" width="140" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="4.0s" begin="2.4s" repeatCount="indefinite"/></rect><text x="790" y="198" text-anchor="middle" class="t-nl">MONGODB</text><text x="790" y="213" text-anchor="middle" class="t-ns">atlas</text><path d="M450.0,222 L450.0,248" stroke="#ff2b2b" stroke-dasharray="3 3" fill="none"/><text x="460.0" y="246" class="t-ok">403  wrong role, write blocked</text>
+  <rect x="40" y="288" width="820" height="1" fill="#3a0808"/><text x="177" y="328" text-anchor="middle" class="t-mv">15</text><text x="177" y="346" text-anchor="middle" class="t-ml">API TESTS</text><text x="450" y="328" text-anchor="middle" class="t-mv">100%</text><text x="450" y="346" text-anchor="middle" class="t-ml">ROUTE COVERAGE</text><text x="723" y="328" text-anchor="middle" class="t-mv">~1 ms</text><text x="723" y="346" text-anchor="middle" class="t-ml">P50 API OVERHEAD</text>
+  <rect width="900" height="370" fill="url(#scanlines)" pointer-events="none"/>
+</svg>

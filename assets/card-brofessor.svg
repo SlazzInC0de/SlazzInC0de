@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370">
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.35"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2b2b" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff2b2b" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff2b2b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t-id { font: 700 13px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 3px; }
+    .t-st { font: 500 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 2px; }
+    .t-rp { font: 500 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1px; }
+    .t-hd { font: 800 22px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; }
+    .t-sb { font: 400 12.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .t-ch { font: 700 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; letter-spacing: 1.5px; }
+    .t-nl { font: 700 11.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ffe3e3; letter-spacing: 1px; }
+    .t-ns { font: 400 9.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; }
+    .t-mv { font: 800 26px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; }
+    .t-ml { font: 500 9.5px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #6e2222; letter-spacing: 2.5px; }
+    .t-sm { font: 500 10px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #a35a5a; letter-spacing: 1.5px; }
+    .t-ok { font: 700 11px 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; fill: #ff2b2b; letter-spacing: 1px; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .25; } }
+    .flow { stroke-dasharray: 4 5; animation: flow 1s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -9; } }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(900px); } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+</style>
+  <rect width="900" height="370" fill="#070101"/>
+  <rect x="12" y="12" width="876" height="346" fill="#0d0202" stroke="#5a1010"/>
+  <text x="40" y="46" class="t-id">06 · BROFESSOR</text>
+  <circle cx="201" cy="42" r="4" fill="#ff2b2b" class="pulse"/>
+  <text x="213" y="46" class="t-st">IN DEVELOPMENT</text>
+  <text x="860" y="46" text-anchor="end" class="t-rp">-&gt; /Brofessor</text>
+  <rect x="40" y="60" width="820" height="1" fill="#3a0808"/>
+  <rect class="scan" x="40" y="59.5" width="200" height="2" fill="url(#sweep)"/>
+  <text x="40" y="96" class="t-hd">An AI tutor that teaches on a whiteboard.</text>
+  <text x="40" y="118" class="t-sb">Feed it slides or a PDF. It plans the lesson, draws it and explains it like a professor.</text>
+  <rect x="40" y="134" width="82" height="22" fill="none" stroke="#5a1010"/><text x="81" y="149" text-anchor="middle" class="t-ch">AI TUTOR</text><rect x="132.0" y="134" width="142" height="22" fill="none" stroke="#5a1010"/><text x="203" y="149" text-anchor="middle" class="t-ch">STROKE RENDERING</text><rect x="284.0" y="134" width="120" height="22" fill="none" stroke="#5a1010"/><text x="344" y="149" text-anchor="middle" class="t-ch">EN / HINGLISH</text><rect x="413.5" y="134" width="97" height="22" fill="none" stroke="#5a1010"/><text x="462" y="149" text-anchor="middle" class="t-ch">DOUBT CHAT</text>
+  <path d="M172,194 L198,194" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="1.0s" begin="0.00s" repeatCount="indefinite" path="M172,194 L198,194"/></circle><path d="M330,194 L356,194" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="1.0s" begin="0.70s" repeatCount="indefinite" path="M330,194 L356,194"/></circle><rect x="40" y="172" width="132" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="0.0s" repeatCount="indefinite"/></rect><text x="106" y="192" text-anchor="middle" class="t-nl">SLIDES / PDF</text><text x="106" y="207" text-anchor="middle" class="t-ns">your material</text><rect x="198" y="172" width="132" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="0.7s" repeatCount="indefinite"/></rect><text x="264" y="192" text-anchor="middle" class="t-nl">CONCEPTS</text><text x="264" y="207" text-anchor="middle" class="t-ns">scan + plan</text><rect x="356" y="172" width="132" height="44" fill="#120303" stroke="#5a1010"><animate attributeName="fill" values="#120303;#3a0808;#120303;#120303" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="stroke" values="#5a1010;#ff2b2b;#5a1010;#5a1010" keyTimes="0;0.1;0.25;1" dur="6.0s" begin="1.4s" repeatCount="indefinite"/></rect><text x="422" y="192" text-anchor="middle" class="t-nl">BOARD PLAN</text><text x="422" y="207" text-anchor="middle" class="t-ns">what to draw</text><path d="M488,194 L530,194" fill="none" stroke="#ff2b2b" stroke-opacity=".55" stroke-width="1.2" class="flow"/><circle r="3" fill="#ff5c5c"><animateMotion dur="1.0s" begin="1.40s" repeatCount="indefinite" path="M488,194 L530,194"/></circle><rect x="530" y="162" width="330" height="118" fill="#0a0101" stroke="#5a1010"/><path d="M560,192 h70 v36 h-70 z" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.08;0.16;0.92;1" dur="7s" repeatCount="indefinite"/></path><path d="M630,210 h60" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.18;0.26;0.92;1" dur="7s" repeatCount="indefinite"/></path><path d="M680,204 l10,6 l-10,6" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.28;0.36;0.92;1" dur="7s" repeatCount="indefinite"/></path><path d="M700,192 h80 v36 h-80 z" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.38;0.46;0.92;1" dur="7s" repeatCount="indefinite"/></path><path d="M560,254 c20,-14 40,14 60,0 s40,-14 60,0 s40,14 60,0" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.48;0.56;0.92;1" dur="7s" repeatCount="indefinite"/></path><path d="M780,254 h40" fill="none" stroke="#ffe3e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.58;0.66;0.92;1" dur="7s" repeatCount="indefinite"/></path><text x="595" y="214" text-anchor="middle" class="t-ns">input</text><text x="740" y="214" text-anchor="middle" class="t-ns">output</text><text x="40" y="244" class="t-sm">no generated images. every diagram is drawn stroke by stroke,</text><text x="40" y="260" class="t-sm">narrated live, and pauses when you ask a doubt.</text>
+  <rect x="40" y="288" width="820" height="1" fill="#3a0808"/><text x="177" y="328" text-anchor="middle" class="t-mv">0</text><text x="177" y="346" text-anchor="middle" class="t-ml">GENERATED IMAGES</text><text x="450" y="328" text-anchor="middle" class="t-mv">2</text><text x="450" y="346" text-anchor="middle" class="t-ml">NARRATION LANGUAGES</text><text x="723" y="328" text-anchor="middle" class="t-mv">PDF/PPT</text><text x="723" y="346" text-anchor="middle" class="t-ml">INPUT MATERIAL</text>
+  <rect width="900" height="370" fill="url(#scanlines)" pointer-events="none"/>
+</svg>
