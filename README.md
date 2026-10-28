@@ -22,7 +22,6 @@
 ```yaml
 name:       Suryansh Verma
 studying:   B.Tech CSE @ MIT Bengaluru (2024 to 2028) | CGPA 8.13
-minor:      Computer Graphics & Visualization
 based_in:   Bengaluru, India
 previously: Summer Intern @ Techible & I3C, IIT Jammu (Jun to Aug 2025)
 focus:      [Cloud & DevOps, AI/ML, Data Engineering & Analytics]
