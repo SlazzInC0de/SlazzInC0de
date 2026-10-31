@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/header.svg?v=1793327009" width="100%" alt="Suryansh Verma"/>
+  <img src="./assets/header.svg?v=1793409852" width="100%" alt="Suryansh Verma"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ---
 
-<img src="./assets/title-about.svg?v=1793327009" width="100%" alt="About Me"/>
+<img src="./assets/title-about.svg?v=1793409852" width="100%" alt="About Me"/>
 
 
 ```yaml
@@ -31,11 +31,11 @@ currently:  Looking for SWE internships in backend, cloud & data platforms
 
 ---
 
-<img src="./assets/title-projects.svg?v=1793327009" width="100%" alt="Featured Projects"/>
+<img src="./assets/title-projects.svg?v=1793409852" width="100%" alt="Featured Projects"/>
 
 ### ▸ FLAGSHIP 01 &nbsp;·&nbsp; DATA ENGINEERING
 
-<a href="https://github.com/SlazzInC0de/stratoflow"><img src="./assets/card-stratoflow.svg?v=1793327009" width="100%" alt="StratoFlow"/></a>
+<a href="https://github.com/SlazzInC0de/stratoflow"><img src="./assets/card-stratoflow.svg?v=1793409852" width="100%" alt="StratoFlow"/></a>
 
 **One bad row should not kill a whole batch. StratoFlow makes sure it never does.**
 
@@ -51,7 +51,7 @@ currently:  Looking for SWE internships in backend, cloud & data platforms
 
 ### ▸ FLAGSHIP 02 &nbsp;·&nbsp; THEORY OF COMPUTATION
 
-<a href="https://drawtomata.vercel.app"><img src="./assets/card-drawtomata.svg?v=1793327009" width="100%" alt="Drawtomata"/></a>
+<a href="https://drawtomata.vercel.app"><img src="./assets/card-drawtomata.svg?v=1793409852" width="100%" alt="Drawtomata"/></a>
 
 **Built because these conversions kept costing me marks in exams.** [Repo](https://github.com/SlazzInC0de/drawtomata) · [Live](https://drawtomata.vercel.app)
 
@@ -65,7 +65,7 @@ currently:  Looking for SWE internships in backend, cloud & data platforms
 
 ### ▸ FLAGSHIP 03 &nbsp;·&nbsp; SEMANTIC SEARCH
 
-<a href="https://github.com/SlazzInC0de/imazinthecomicz"><img src="./assets/card-imazin.svg?v=1793327009" width="100%" alt="IMAZINTHECOMICS"/></a>
+<a href="https://github.com/SlazzInC0de/imazinthecomicz"><img src="./assets/card-imazin.svg?v=1793409852" width="100%" alt="IMAZINTHECOMICS"/></a>
 
 **Search comics by what happens in them, not by what they are called.**
 
@@ -80,22 +80,22 @@ currently:  Looking for SWE internships in backend, cloud & data platforms
 
 ### ▸ MORE BUILDS
 
-<a href="https://github.com/SlazzInC0de/smart-shortlisting-engine"><img src="./assets/card-shortlist.svg?v=1793327009" width="100%" alt="Smart Shortlisting Engine"/></a>
+<a href="https://github.com/SlazzInC0de/smart-shortlisting-engine"><img src="./assets/card-shortlist.svg?v=1793409852" width="100%" alt="Smart Shortlisting Engine"/></a>
 
 > **Built for the InternLoom AI Hackathon.** Exact skill parsing plus semantic resume-vs-JD matching on local **all-MiniLM-L6-v2** embeddings. Fully local, zero external API calls, and the top 3 come with reasons.
 
-<a href="https://github.com/SlazzInC0de/Brofessor"><img src="./assets/card-brofessor.svg?v=1793327009" width="100%" alt="Brofessor"/></a>
+<a href="https://github.com/SlazzInC0de/Brofessor"><img src="./assets/card-brofessor.svg?v=1793409852" width="100%" alt="Brofessor"/></a>
 
 > **In development.** Upload slides or a PDF and Brofessor teaches it on a whiteboard: it plans the lesson, draws every diagram as strokes instead of generated images, narrates in English or Hinglish, and pauses when you type a doubt.
 
-<a href="https://github.com/SlazzInC0de/gradintern"><img src="./assets/card-gradintern.svg?v=1793327009" width="100%" alt="GradIntern"/></a>
+<a href="https://github.com/SlazzInC0de/gradintern"><img src="./assets/card-gradintern.svg?v=1793409852" width="100%" alt="GradIntern"/></a>
 
 > **Full-stack internship portal** with student, recruiter and admin roles. Stateless **JWT + RBAC** middleware guards every write route on an Express 5 + MongoDB Atlas API, with a React 19 + Tailwind 4 frontend.
 
 
 ---
 
-<img src="./assets/title-stack.svg?v=1793327009" width="100%" alt="Tech Stack"/>
+<img src="./assets/title-stack.svg?v=1793409852" width="100%" alt="Tech Stack"/>
 
 
 <p align="center">
@@ -121,17 +121,17 @@ currently:  Looking for SWE internships in backend, cloud & data platforms
 
 ---
 
-<img src="./assets/title-analytics.svg?v=1793327009" width="100%" alt="GitHub Analytics"/>
+<img src="./assets/title-analytics.svg?v=1793409852" width="100%" alt="GitHub Analytics"/>
 
 
 <p align="center">
-  <img src="./assets/stats.svg?v=1793327009" width="49%" alt="GitHub stats"/>
-  <img src="./assets/langs.svg?v=1793327009" width="49%" alt="Most used languages"/>
+  <img src="./assets/stats.svg?v=1793409852" width="49%" alt="GitHub stats"/>
+  <img src="./assets/langs.svg?v=1793409852" width="49%" alt="Most used languages"/>
 </p>
 
-<img src="./assets/title-activity.svg?v=1793327009" width="100%" alt="Contribution Activity"/>
+<img src="./assets/title-activity.svg?v=1793409852" width="100%" alt="Contribution Activity"/>
 
 
 <p align="center">
-  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1793327009"/>
+  <img width="100%" alt="Contribution activity" src="./assets/contrib-dark.svg?v=1793409852"/>
 </p>
