@@ -26,13 +26,23 @@ jobs:
         with:
           ref: main
 
-      - name: Contribution snake
-        uses: Platane/snk@v3
+      - name: Contribution Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/contrib-dark.svg?color_empty=%23140303&color_dot_border=%232a0606&color_snake=%23ff2b2b&color_dots=%23140303,%234d0b0b,%238f1414,%23cc1f1f,%23ff3b3b
-            dist/contrib-light.svg?color_snake=%23b91c1c&color_dots=%23ebedf0,%23fecaca,%23f87171,%23dc2626,%23991b1b
+          games: "pacman"
+          player_style: "opportunistic"
+
+      - name: Recolor Pac-Man graph to profile red theme
+        run: |
+          mv dist/pacman-contribution-graph-dark.svg dist/contrib-dark.svg
+          mv dist/pacman-contribution-graph.svg dist/contrib-light.svg
+          sed -i -e 's/#0d1117/#070101/Ig' \
+                 -e 's/#161b22/#140303/Ig' \
+                 -e 's/#0e4429/#4d0b0b/Ig' \
+                 -e 's/#006d32/#8f1414/Ig' \
+                 -e 's/#26a641/#cc1f1f/Ig' \
+                 -e 's/#39d353/#ff3b3b/Ig' dist/contrib-dark.svg
 
       - name: Header, project cards, stats and language cards
         run: |
